@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>おみくじアプリ-開発用-</title>
+  </head>
+  <body>
+    <!-- アプリのタイトル -->
+    <h1>おみくじアプリ</h1>
+
+    <!-- 画像 -->
+    <div class="shrine-img-box">
+      <img src="shrine_img.JPG" alt="神社" />
+    </div>
+
+    <!-- 使い方 -->
+    <div class="intro">
+      <h3>使い方</h3>
+      <ol>
+        <li>「おみくじをひく」をクリックしてください。</li>
+        <li>「おみくじ順位表」と自分の結果を見比べてみましょう。</li>
+      </ol>
+    </div>
+
+    <!-- 順位表と結果 -->
+    <div class="rank-result">
+      <table rules="all">
+        <thead>
+          <tr>
+            <th colspan="2">おみくじ順位表</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>大吉</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>中吉</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>凶</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>大凶</td>
+          </tr>
+        </tbody>
+      </table>
+      <p id="result"></p>
+    </div>
+
+    <!-- ボタン -->
+    <div class="btn-area">
+      <button>おみくじをひく</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
